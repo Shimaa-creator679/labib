@@ -5,7 +5,7 @@ const Color = () => {
 
 
      useEffect(() => {
-          fetch("/resoursesData.json")
+          fetch("/Resourses/resoursesData.json")
             .then(res => res.json())
             .then(data => setdata(data.Color));
         }, []);

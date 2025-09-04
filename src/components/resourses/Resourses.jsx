@@ -7,53 +7,43 @@ import Work from './Work'
 import Color from './Color'
 import Play from './Play'
 import Draw from './Draw'
-import Read from '../Read'
+import Read from './Read'
 const taps_data=[
     {
         id:1,
         content:"Watch",
-        icon: "/play.png"
+        icon: "/Resourses/play.png"
     },
     {
         id:2,
         content:"Worksheets",
-        icon: "/pencil.png"
+        icon: "/Resourses/pencil.png"
     },
     {
         id:3,
         content:"Play",
-        icon: "/science.png"
+        icon: "/Resourses/science.png"
     },
     {
         id:4,
         content:"Draw",
-        icon: "/pencil.png"
+        icon: "/Resourses/pencil.png"
     },
     {
         id:5,
         content:"Color",
-        icon: "/palette.png"
+        icon: "/Resourses/palette.png"
     },
     {
         id:6,
         content:"Read",
-        icon: "/science.png"
+        icon: "/Resourses/science.png"
     }
 ]
 
 const Resourses = () => {
     const [state,setstate]=useState("Watch")
 
-    // const[tapData,settapData]=useState([])
-
-    // useEffect(()=>{
-    //     const fetchdata= async()=>{
-    //         const data=await fetch("/resoursesData.json")
-    //         const json=await data.json()
-    //         settapData(json[state])
-    //     }
-    //     fetchdata()
-    // },[state])
 
   return (
     <div className='pb-40'>

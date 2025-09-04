@@ -9,7 +9,7 @@ const FunLearning = () => {
 
   useEffect( ()=>{
     const fetchData = async () => {
-      const data = await fetch ("/FunData.json")
+      const data = await fetch ("/FunLearning//FunData.json")
       const res = await data.json()
       setdata(res.funTools)
     }

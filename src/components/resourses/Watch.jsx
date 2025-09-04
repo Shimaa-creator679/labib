@@ -9,7 +9,7 @@ const[data,setdata]=useState([])
   const [selectedOption2, setSelectedOption2] = React.useState("all");
 
 useEffect(() => {
-  fetch("/resoursesData.json")
+  fetch("Resourses/resoursesData.json")
     .then(res => res.json())
     .then(data => setdata(data.Watch));
 }, []);
@@ -41,10 +41,10 @@ useEffect(() => {
     <div>
 
       {/* taps */}
-      <div className="selects py-10 flex items-center gap-10">
+      <div className="selects py-10 flex flex-col md:flex-row items-center gap-10">
 
         <select onChange={handleOptionChange1} className='bg-[#F5F5F5] rounded-2xl py-2 px-3 shadow-2xl text-sm outline-none'>
-           <option value="" disabled> scholar years</option>
+           <option value="" disabled  selected   hidden> Age groups</option>
           <option value="all">all</option>
           <option value="+3 years">+3 years</option>
           <option value="+9 years">+9 years</option>
@@ -54,7 +54,7 @@ useEffect(() => {
 {/* المقرر الدراسي  */}
 
              <select onChange={handleOptionChange2} className='bg-[#F5F5F5] rounded-2xl py-2 px-3 shadow-2xl text-sm outline-none'>
-                         <option value="" disabled> scholar subjects</option>
+                         <option value="" selected  disabled hidden> scholar subjects</option>
           <option value="all">all</option>
           <option value="arabic">arabic</option>
           <option value="science">science</option>

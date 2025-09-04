@@ -4,7 +4,7 @@ const Work = () => {
   const [data, setdata] = useState([]);
 
   useEffect(() => {
-    fetch("/resoursesData.json")
+    fetch("Resourses/resoursesData.json")
       .then(res => res.json())
       .then(data => setdata(data.Worksheets));
   }, []);

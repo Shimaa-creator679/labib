@@ -4,7 +4,7 @@ const Draw = () => {
   const [data, setdata] = useState([]);
 
       useEffect(() => {
-        fetch("/resoursesData.json")
+        fetch("/Resourses/resoursesData.json")
           .then(res => res.json())
           .then(data => setdata(data.Draw));
       }, []);
@@ -13,7 +13,7 @@ const Draw = () => {
  <div>
       <div className="grid  place-items-center py-10">
  {data.map(item => (
-        <img key={item.id} src={item.img} alt="Work" className='w-1/2' />
+        <img key={item.id} src={item.img} alt="Work" className='md:w-[80%]' />
       ))}
 
       </div>
