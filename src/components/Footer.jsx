@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from "../assets/logo.svg"
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
