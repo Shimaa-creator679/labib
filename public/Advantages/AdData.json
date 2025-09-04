@@ -1,0 +1,37 @@
+{
+
+
+    "adData": [
+        {
+            "id": 1,
+            "img": "/Advantages/ad1.png",
+            "title": "It uses gamification techniques, rewards, and rankings.",
+            "content": "We combine the elements that make play fun for humans with the educational process.."
+        },
+        {
+            "id": 2,
+            "img": "/Advantages/ad2.png",
+            "title": "Allows audio playback of questions and answers..",
+            "content": "This feature enables users to listen to questions and answers, enhancing accessibility and engagement."
+        },
+        {
+            "id": 3,
+            "img": "/Advantages/ad3.png",
+            "title":"It relies on gamification techniques.",
+            "content": "By incorporating game-like elements, it motivates learners and makes the process more enjoyable."
+        },
+        {
+            "id": 4,
+            "img": "/Advantages/ad4.png",
+            "title":"Automatic correction and evaluation",
+            "content": "This feature provides instant feedback to learners, helping them understand their mistakes and improve."
+        },
+        {
+            "id": 5,
+            "img": "/Advantages/ad5.png",
+            "title":"Questions with varying levels of difficulty",
+            "content": "This feature offers questions that adapt to the learner's skill level, providing a personalized experience."
+        }
+    ]
+
+}

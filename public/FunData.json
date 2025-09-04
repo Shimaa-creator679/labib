@@ -1,0 +1,28 @@
+
+
+{
+  "funTools": [
+    {
+      "id": 1,
+      "image": "/Layer_3.png",
+      "title":"Fun Learning Units",
+      "content":"Combining books, animations, games, interactive exercises, and well-designed worksheets.",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "image": "/Layer_4.png",
+      "title":"Engaging Books",
+      "content":"Carefully selected to suit all interests, read in a dramatic style using accurate and fluent Modern Standard Arabic.",
+      "count":2
+    },
+    {
+      "id": 3,
+      "image": "/Layer_5.png",
+      "title":"Game-Based Learning",
+      "content":"We integrate the elements that make games enjoyable for humans into the educational process.",
+      "count": 3
+    }
+   
+  ]
+}

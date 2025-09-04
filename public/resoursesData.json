@@ -1,0 +1,190 @@
+{
+     "Watch": [
+    {
+      "id": 1,
+      "img": "/Rectangle.png",
+      "title": "Recycling Basics",
+      "subject": "arabic",
+      "category": "+3 years"
+    },
+    {
+      "id": 2,
+      "img": "/Rectangle.png",
+      "title": "Energy and Science",
+      "subject": "science",
+      "category": "+12 years"
+    },
+    {
+      "id": 3,
+      "img": "/Rectangle.png",
+      "title": "Maths for Kids",
+      "subject": "maths",
+      "category": "+9 years"
+    },
+    {
+      "id": 4,
+      "img": "/Rectangle.png",
+      "title": "Algebra Practice",
+      "subject": "maths",
+      "category": "+9 years"
+    },
+    {
+      "id": 5,
+      "img": "/Rectangle.png",
+      "title": "Healthy Food",
+      "subject": "science",
+      "category": "+15 years"
+    },
+    {
+      "id": 6,
+      "img": "/Rectangle.png",
+      "title": "Arabic Poetry",
+      "subject": "arabic",
+      "category": "+15 years"
+    }
+  ],
+
+
+    "Worksheets":[
+        {"id":1,
+        "img":"/Frame189.png"
+
+    },
+        {"id":2,
+        "img":"/Frame190.png"
+
+    },
+        {"id":3,
+        "img":"/Frame191.png"
+
+    },
+        {"id":4,
+        "img":"/Frame192.png"
+
+    }
+    ],
+
+
+
+    "Play":[
+        {
+            "id":1,
+            "img":"/game .png"
+
+        }
+    ],
+
+
+
+
+    "Draw":[
+        {
+            "id":1,
+            "img":"/drowing (1).png"
+
+        }
+    ],
+
+
+
+
+    "Color":[
+        {
+            "id":1,
+            "img":"/colour1.png",
+            "title":"Labib the Adventurer"
+
+
+
+        },
+        {
+            "id":2,
+            "img":"/colour2.png",
+"title":"Labib the Crying"
+
+
+
+        },
+        {
+            "id":3,
+            "img":"/colour3.png",
+            "title":"Super Labib" 
+
+
+
+
+        },
+        {
+            "id":4,
+            "img":"/colour1.png",
+            "title":"Labib the Loving" 
+
+
+
+
+        }
+      
+    ]
+    ,
+    "Read":[
+  {
+    "id": 1,
+    "img": "/read1.png",
+    "title": "Why I'm Square",
+    "subject": "Basic Concepts",
+    "level": "Beginner"
+  },
+  {
+    "id": 2,
+    "img": "/read2.png",
+    "title": "Snaa in Space",
+    "subject": "Skill Development",
+    "level": "Beginner"
+  },
+  {
+    "id": 3,
+    "img": "/read2.png",
+    "title": "Recycling",
+    "subject": "Emotional Intelligence",
+    "level": "Advanced"
+  },
+  {
+    "id": 4,
+    "img": "/read2.png",
+    "title": "Maths Practice",
+    "subject": "Maths",
+    "level": "Intermediate"
+  },
+  {
+    "id": 5,
+    "img": "/read2.png",
+    "title": "The Water Cycle",
+    "subject": "Science",
+    "level": "Beginner"
+  },
+  {
+    "id": 6,
+    "img": "/read1.png",
+    "title": "Arabic Poems",
+    "subject": "Arabic",
+    "level": "Advanced"
+  },
+  {
+    "id": 7,
+    "img": "/read2.png",
+    "title": "Shapes Around Us",
+    "subject": "Basic Concepts",
+    "level": "Beginner"
+  },
+  {
+    "id": 8,
+    "img": "/read1.png",
+    "title": "Healthy Food",
+    "subject": "Science",
+    "level": "Intermediate"
+  }
+]
+
+
+    
+}
